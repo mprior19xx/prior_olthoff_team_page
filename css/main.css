@@ -46,14 +46,16 @@ h1 {
 }
 
 .colourImage {
-	filter: grayscale(0);
+	filter: grayscale(0) !important;
 }
 
 h2 {
 	color: #9e9b8f;
 	font-size: 35px;
 	margin-bottom: 25px;
+	padding-bottom: 25px;
 	text-align: center;
+	border-bottom: solid 2px #e0ddd7;
 }
 
 p {
