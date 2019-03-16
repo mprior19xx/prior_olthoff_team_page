@@ -46,7 +46,7 @@ h1 {
 }
 
 .colourImage {
-	filter: grayscale(0);
+	filter: grayscale(0) !important;
 }
 
 h2 {
