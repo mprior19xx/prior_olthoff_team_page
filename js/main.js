@@ -5,7 +5,8 @@
 		textArea 	= document.querySelector("p");
 
 	const names 		= ["Scott Olthoff", "Michael Prior"],
-		  information 	= ["Scott information", "Hi, my name is Michael and I am a 27 year old designer / developer from London Ontario. <br>I think my first introduction to web design was back in 2005 when I made my first Myspace page. When you visited the page you were treated with ear piercing levels of angsty music and a terrible red and black layout. Since then, I'd like to believe that I've learned a thing or two, but only time will tell.  "]
+		  information 	= ["Hi! My name is Scott Olthoff and I am a 20 year old designer / developer from London, Ontario. I am currently taking the Interactive Media Design course at Fanshawe and hope to continue my studies in the Visual Effects and Editing for Contemporary Media course after graduating. Eventually I would like to become a video editor / special effects artist creating videos, commercials, and / or movies!", 
+		  				   "Hi, my name is Michael and I am a 27 year old designer / developer from London, Ontario. <br>I think my first introduction to web design was back in 2005 when I made my first Myspace page. When you visited the page you were treated with ear piercing levels of angsty music and a terrible red and black layout. Since then, I'd like to believe that I've learned a thing or two, but only time will tell.  "]
 	// Sets default team member to Scott
 	function setDefault() {
 		// Colours image

@@ -6,19 +6,21 @@
 	display: none;
 }
 
+/*Sets background colour and initial text settings*/
 body {
 	background-color: #f9f8f4;
 	font-family: 'Exo', sans-serif;
 	letter-spacing: 0.5px
 }
 
+/*Sizes and positions the container*/
 #container {
 	max-width: 60%;
 	margin: 0 auto;
 	height: auto;
 	padding: 25px;
 }
-
+/*Styles and positions the page header*/
 h1 {
 	color: #9e9b8f;
 	font-size: 50px;
@@ -29,6 +31,7 @@ h1 {
 	margin-bottom: 25px;
 }
 
+/*Positions the pictures*/
 #photos {
 	display: flex;
 	flex-direction: row;
@@ -36,6 +39,7 @@ h1 {
 	margin-bottom: 25px;
 }
 
+/*Styles the pictures*/
 #photos img {
 	border-radius: 50%;
 	border: solid 5px #9e9b8f;
@@ -45,10 +49,12 @@ h1 {
 	filter: grayscale(1);
 }
 
+/*Makes photos grayscale*/
 .colourImage {
 	filter: grayscale(0) !important;
 }
 
+/*Styles and positions the names*/
 h2 {
 	color: #9e9b8f;
 	font-size: 35px;
@@ -58,10 +64,12 @@ h2 {
 	border-bottom: solid 2px #e0ddd7;
 }
 
+/*Styles and positions the paragraphs*/
 p {
 	font-size: 20px;
 	font-family: arial, sans-serif;
 	color: #636157;
 	height: 100%;
 	line-height: 25px;
+	text-align: center;
 }
